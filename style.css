@@ -1,0 +1,237 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FFFBEB;
+}
+
+ion-icon {
+  font-size: 32px;
+}
+
+input {
+  padding: 10px 30px;
+  display: inline-block;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 800;
+  font-size: 18px;
+  padding: 4px;
+}
+
+.pet {
+  color: #E5BA73;
+}
+
+.btn {
+  flex-wrap: wrap;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  width: fit-content;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  color: whitesmoke;
+  letter-spacing: 1px;
+  background-image: linear-gradient(to right, #E5BA73, #FAAB78);
+}
+
+.section-title {
+  color: #FAAB78;
+  font-size: 24px;
+  letter-spacing: 1px;
+  padding: 8px;
+  width: fit-content;
+  border-bottom: 4px solid #FAAB78;
+  margin: 10px auto;
+}
+
+.section-intro {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header {
+    background-image: linear-gradient(to right, grey, lightgrey, grey);
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  header nav {
+    order: 2;
+    flex-grow: 1;
+    padding: 10px;
+  
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profile img {
+    width: 64px;
+    height: 64px;
+  
+    border-radius: 50%;
+  }
+  
+  .profile {
+    padding: 10px;
+  
+    display: flex;
+    align-items: center;
+    gap:  15px;
+  }
+  
+  .author {
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  
+  .welcome-wrapper {
+    padding: 15px;
+  
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .thumbnail {
+    flex-shrink: 0;
+  }
+
+  .thumbnail img {
+    width: 300px
+  }
+
+  .category {
+    text-align: center;
+  }
+  
+  .product {
+    width: 210px;
+    height: 300px;
+    background-color: wheat;
+    border: 3px solid orange;
+    border-radius: 10px;
+    box-shadow: 0 0 15px grey;
+  
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  
+  }
+  
+  
+  .science-wrapper {
+    padding: 25px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    
+  }
+  
+  .footer {
+    flex-direction: row-reverse;
+  }
+  
+  .icon {
+    justify-content: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .molecule img {
+    width: 700px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+  }table {
+    border-collapse: collapse;
+
+}
+
+th, td {
+    border: 2px solid white;
+}
+  
+  th {
+    height: 50px;
+    background-color: brown;
+    color: white;
+    font-size: 24px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tr:nth-child(odd) {
+    background-color: dimgray;
+}
+
+.english {
+  padding: 25px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  
+}
+
+.author2 img {
+  background-color: whitesmoke;
+  padding: 15px;
+  border-radius: 15px;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.math-wrapper {
+  padding: 25px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  
+}
